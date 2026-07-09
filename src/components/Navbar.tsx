@@ -6,6 +6,7 @@
 import { useState } from 'react';
 import { Menu, X, ShoppingBag, Heart, Cookie, HelpCircle, PhoneCall } from 'lucide-react';
 import { motion } from 'motion/react';
+import logoImg from '../assets/images/snackly_new_logo_1782877194521.jpg';
 
 interface NavbarProps {
   activeSection: string;
@@ -42,7 +43,7 @@ export default function Navbar({ activeSection, setActiveSection, likedCount }: 
           >
             <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-xl overflow-hidden shadow-md group-hover:scale-105 transition-transform duration-300 bg-white border border-orange-100 flex items-center justify-center">
               <img
-                src="/assets/images/snackly_new_logo_1782877194521.jpg"
+                src={logoImg}
                 alt="Snackly Logo"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

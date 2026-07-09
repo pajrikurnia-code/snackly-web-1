@@ -1,4 +1,9 @@
 import { Product } from './types';
+import basrengImg from './assets/images/product_basreng_1782876606047.jpg';
+import makaroniImg from './assets/images/product_makaroni_pedas_1782876620313.jpg';
+import tempeImg from './assets/images/product_keripik_tempe_1782876636073.jpg';
+import pisangImg from './assets/images/product_keripik_pisang_1782876650549.jpg';
+import pilusImg from './assets/images/product_pilus_1782876663261.jpg';
 
 export const SNACKLY_PRODUCTS: Product[] = [
   {
@@ -20,7 +25,7 @@ export const SNACKLY_PRODUCTS: Product[] = [
       { label: 'Protein Utama', value: '8g per porsi' }
     ],
     images: [
-      '/assets/images/product_basreng_1782876606047.jpg'
+      basrengImg
     ],
     rating: 4.8,
     reviewsCount: 420,
@@ -30,19 +35,19 @@ export const SNACKLY_PRODUCTS: Product[] = [
         name: 'Signature Spicy Daun Jeruk',
         description: 'Level pedas moderat berlumur minyak cabai kering merah menyala dan wangi rona jeruk nipis.',
         tag: 'Paling Laris',
-        image: '/assets/images/product_basreng_1782876606047.jpg'
+        image: basrengImg
       },
       {
         name: 'Salty & Savory Daun Jeruk',
         description: 'Rasa gurih alami ikan tenggiri dipadu luluran daun jeruk segar tanpa rasa pedas berlebih.',
         tag: 'Cocok untuk Anak',
-        image: '/assets/images/product_basreng_1782876606047.jpg'
+        image: basrengImg
       },
       {
         name: 'Hellfire Spicy Extra (Level 10)',
         description: 'Khusus penggila pedas sejati, racikan cabai setan tumbuk kasar yang menyengat nikmat!',
         tag: 'Sangat Pedas',
-        image: '/assets/images/product_basreng_1782876606047.jpg'
+        image: basrengImg
       }
     ],
     reviews: [
@@ -69,7 +74,7 @@ export const SNACKLY_PRODUCTS: Product[] = [
       { label: 'Bahan Kimia', value: '0% Pengawet Tambahan' }
     ],
     images: [
-      '/assets/images/product_makaroni_pedas_1782876620313.jpg'
+      makaroniImg
     ],
     rating: 4.9,
     reviewsCount: 312,
@@ -79,19 +84,19 @@ export const SNACKLY_PRODUCTS: Product[] = [
         name: 'Pedas Manis Balado',
         description: 'Paduan rasa dominan manis legit aren berpadu pedas santun cabai merah keriting.',
         tag: 'Favorit',
-        image: '/assets/images/product_makaroni_pedas_1782876620313.jpg'
+        image: makaroniImg
       },
       {
         name: 'Pedas Asin Gurih',
         description: 'Sensasi asin gurih tradisional Jawa Barat yang gurih nagih dengan aroma daun jeruk kencang.',
         tag: 'Pilihan Populer',
-        image: '/assets/images/product_makaroni_pedas_1782876620313.jpg'
+        image: makaroniImg
       },
       {
         name: 'Pedas Gila Level 15',
         description: 'Komposisi cabai setan kering pilihan khusus untuk pencari tantangan rasa pedas ekstrem.',
         tag: 'Pedas Ekstrem',
-        image: '/assets/images/product_makaroni_pedas_1782876620313.jpg'
+        image: makaroniImg
       }
     ],
     reviews: [
@@ -118,7 +123,7 @@ export const SNACKLY_PRODUCTS: Product[] = [
       { label: 'Bahan Kimia', value: '0% Tanpa MSG Buatan' }
     ],
     images: [
-      '/assets/images/product_keripik_tempe_1782876636073.jpg'
+      tempeImg
     ],
     rating: 4.9,
     reviewsCount: 182,
@@ -128,19 +133,19 @@ export const SNACKLY_PRODUCTS: Product[] = [
         name: 'Original Classic Savory',
         description: 'Sentuhan klasik gurih murni bawang ketumbar tradisional yang digemari seluruh keluarga.',
         tag: 'Terlaris',
-        image: '/assets/images/product_keripik_tempe_1782876636073.jpg'
+        image: tempeImg
       },
       {
         name: 'Aromatic Spicy Lime Leaf',
         description: 'Paduan kehangatan cabe rawit merah asli dan kesegaran daun jeruk purut yang harum semerbak.',
         tag: 'Rekomendasi Chef',
-        image: '/assets/images/product_keripik_tempe_1782876636073.jpg'
+        image: tempeImg
       },
       {
         name: 'Smoked Seaweed Umami',
         description: 'Sensasi gurih rumput laut organik panggang berpadu aroma asap kayu beechwood yang menggoda.',
         tag: 'Favorit Baru',
-        image: '/assets/images/product_keripik_tempe_1782876636073.jpg'
+        image: tempeImg
       }
     ],
     reviews: [
@@ -167,7 +172,7 @@ export const SNACKLY_PRODUCTS: Product[] = [
       { label: 'Vitamin & Serat', value: 'Tinggi Kalium Alami' }
     ],
     images: [
-      '/assets/images/product_keripik_pisang_1782876650549.jpg'
+      pisangImg
     ],
     rating: 4.9,
     reviewsCount: 165,
@@ -177,19 +182,19 @@ export const SNACKLY_PRODUCTS: Product[] = [
         name: 'Golden Sweet Caramel',
         description: 'Cita rasa manis karamel gula aren klasik yang manis legit nan elegan.',
         tag: 'Gourmet Choice',
-        image: '/assets/images/product_keripik_pisang_1782876650549.jpg'
+        image: pisangImg
       },
       {
         name: 'Chocolate Glazed Sweet',
         description: 'Paduan saus cokelat Belgian premium tebal berpadu pisang renyah yang memanjakan lidah.',
         tag: 'Favorit Baru',
-        image: '/assets/images/product_keripik_pisang_1782876650549.jpg'
+        image: pisangImg
       },
       {
         name: 'Milky Cheese Delight',
         description: 'Sensasi manis pisang karamel berselimut bubuk susu dan keju cheddar parut asin gurih.',
         tag: 'Rekomendasi',
-        image: '/assets/images/product_keripik_pisang_1782876650549.jpg'
+        image: pisangImg
       }
     ],
     reviews: [
@@ -216,7 +221,7 @@ export const SNACKLY_PRODUCTS: Product[] = [
       { label: 'Sifat Tekstur', value: 'Super Garing & Ringan' }
     ],
     images: [
-      '/assets/images/product_pilus_1782876663261.jpg'
+      pilusImg
     ],
     rating: 4.7,
     reviewsCount: 142,
@@ -226,19 +231,19 @@ export const SNACKLY_PRODUCTS: Product[] = [
         name: 'Original Cikur Savory',
         description: 'Rasa cikur kencur orisinal yang sangat khas sunda, harum, gurih, dan super renyah.',
         tag: 'Orisinal Khas',
-        image: '/assets/images/product_pilus_1782876663261.jpg'
+        image: pilusImg
       },
       {
         name: 'Spicy Cikur Volcano',
         description: 'Tambahan sengatan bubuk cabai merah setan kering yang membakar semangat penikmat pedas.',
         tag: 'Pedas Nagih',
-        image: '/assets/images/product_pilus_1782876663261.jpg'
+        image: pilusImg
       },
       {
         name: 'Cheese Powder Splash',
         description: 'Paduan aroma cikur klasik dengan siraman keju bubuk gurih asin yang modern.',
         tag: 'Kombinasi Baru',
-        image: '/assets/images/product_pilus_1782876663261.jpg'
+        image: pilusImg
       }
     ],
     reviews: [

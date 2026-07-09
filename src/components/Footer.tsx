@@ -4,6 +4,7 @@
  */
 
 import { Cookie, ShieldAlert, Heart, Sparkles, MessageCircleMore } from 'lucide-react';
+import logoImg from '../assets/images/snackly_new_logo_1782877194521.jpg';
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-lg overflow-hidden bg-white flex items-center justify-center border border-neutral-800">
                 <img
-                  src="/assets/images/snackly_new_logo_1782877194521.jpg"
+                  src={logoImg}
                   alt="Snackly Logo"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { Search, SlidersHorizontal, ArrowDown, Sparkles, AlertCircle, ShoppingBag } from 'lucide-react';
 import { motion } from 'motion/react';
+import logoImg from '../assets/images/snackly_new_logo_1782877194521.jpg';
 
 interface FilterState {
   searchQuery: string;
@@ -66,7 +67,7 @@ export default function LandingHero({ filters, setFilters, categories, packaging
         <div className="flex justify-center mb-6">
           <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-[2rem] overflow-hidden shadow-md border-2 border-orange-100 bg-white p-1.5 transform hover:scale-105 transition-transform duration-300">
             <img
-              src="/assets/images/snackly_new_logo_1782877194521.jpg"
+              src={logoImg}
               alt="Snackly Brand Logo"
               className="w-full h-full object-contain rounded-2xl"
               referrerPolicy="no-referrer"

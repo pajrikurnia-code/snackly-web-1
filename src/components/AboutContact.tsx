@@ -8,6 +8,7 @@ import { Mail, Phone, Clock, MapPin, CheckCircle, Navigation, Send, Award, Heart
 import { SNACK_TIPS_FAQ, SNACKLY_OFFICES } from '../data';
 import { LeadForm } from '../types';
 import { motion } from 'motion/react';
+import makaroniImg from '../assets/images/product_makaroni_pedas_1782876620313.jpg';
 
 interface AboutContactProps {
   productsList: { name: string; localName: string }[];
@@ -130,7 +131,7 @@ Mohon info lebih lanjut ya kak. Terima kasih!`;
         <div className="lg:col-span-5 relative mt-6 lg:mt-0">
           <div className="relative pt-[80%] rounded-[2rem] overflow-hidden shadow-lg border-2 border-brand-orange/20">
             <img
-              src="/assets/images/product_makaroni_pedas_1782876620313.jpg"
+              src={makaroniImg}
               alt="Makaroni Pedas Snackly"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover"
