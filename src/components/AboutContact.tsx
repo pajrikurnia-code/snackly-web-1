@@ -130,7 +130,7 @@ Mohon info lebih lanjut ya kak. Terima kasih!`;
         <div className="lg:col-span-5 relative mt-6 lg:mt-0">
           <div className="relative pt-[80%] rounded-[2rem] overflow-hidden shadow-lg border-2 border-brand-orange/20">
             <img
-              src="/src/assets/images/product_makaroni_pedas_1782876620313.jpg"
+              src="/assets/images/product_makaroni_pedas_1782876620313.jpg"
               alt="Makaroni Pedas Snackly"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover"
