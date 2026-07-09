@@ -1,0 +1,6 @@
+{
+  "name": "Snackly",
+  "description": "Situs Web Resmi Snackly - Varian Rasa Snack Premium, Profil Usaha, dan Pemesanan WhatsApp Instan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
